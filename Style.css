@@ -1,0 +1,22 @@
+body {
+    background-color: #87CEFA;
+    color: #202020;
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 40px;
+}
+
+h1, h2, h3, h5 {
+    font-family: Impact, sans-serif;
+}
+
+h1, h2, h3, h5 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+img {
+    width: 250px;
+}
