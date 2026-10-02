@@ -7,26 +7,149 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <header>
-        <h1>Ajio Was Stolen Archives</h1>
-    </header>
+    <button
+    id="boton-menu"
+    class="boton-menu"
+    type="button"
+    aria-label="Abrir menú"
+>
+    ☰
+</button>
+    <aside class="menu-lateral" id="menu-lateral">
 
-    <main>
-        <h2>Ajio Was Stolen (A.W.S)</h2>
-        <p>Ajio Was Stolen nace de la necesidad humana de crear mas y de consumir menos. Usamos el arte como impulso de cambio social, aunque ese cambio a veces parezca quedarse pendiente.</p>
-        <p>Este proyecto mezcla la nostalgia que viene del cambio. El extrañar de las personas cercanas, el extrañar de los lugares concurridos y de los recuerdos.</p>
+    <button type="button" data-seccion="inicio">
+        AJIO
+    </button>
 
-        <section>
-            <h3>Bala en el Bolsillo:</h3>
-            <h4>En los primeros dias de haber empezado a trabjar en walmart overnight, Ajio tenia llamadas por facetime y como estaba trabajando me ponia el celular en el bolsillo y bala siempre decia: "sacame del bolsillo"</h4>
-            <h5>Cereal Walk:</h5>
-            <figure>
-                <img src="./imagenes/CerealWalk.jpeg"
+    <nav>
+        <button type="button" data-seccion="que-es-ajio">
+            ¿Qué es AJIO?
+        </button>
+
+        <button type="button" data-seccion="fotografias">
+            Fotografías
+        </button>
+
+        <button type="button" data-seccion="prendas">
+            Prendas
+        </button>
+
+        <button type="button" data-seccion="ilustraciones">
+            Ilustraciones
+        </button>
+
+        <button type="button" data-seccion="graffiti">
+            Graffiti
+        </button>
+    </nav>
+</aside>
+    <header class="encabezado-ajio">
+    <img
+        class="logo-principal"
+        src="./imagenes/ajio-logo.png"
+        alt="Logo de Ajio Was Stolen"
+    >
+</header>
+<main id="inicio" class="vista">
+
+    <section class="portada-inicio">
+
+<div class="zona-grafiti">
+
+    <p class="marca-origen">
+        AJIO WAS STOLEN · EST. 2020
+    </p>
+
+    <img
+        class="grafiti-principal"
+        src="./imagenes/ajio-grafiti.png"
+        alt="Grafiti de AJIO"
+    >
+
+    <p class="manifiesto-inicio">
+        Para que exista la paz,<br>
+        deben existir sacrificios.
+    </p>
+
+</div>
+
+        <div class="frase-inicio">
+            <p id="frase-cambiante">
+                Somos esclavos de la libertad.
+            </p>
+        </div>
+
+   <div class="exposicion-inicio">
+    <img
+        id="imagen-carrusel"
+        src="./imagenes/CerealWalk.jpeg"
+        alt="Exposición de trabajos de AJIO"
+    >
+</div>
+
+    </section>
+
+</main>
+    <section id="que-es-ajio" class="vista" hidden>
+    <h2>¿Qué es AJIO?</h2>
+
+    <p>
+        Ajio Was Stolen nace de la necesidad humana de crear más
+        y de consumir menos. Usamos el arte como impulso de cambio
+        social, aunque ese cambio a veces parezca quedarse pendiente.
+    </p>
+
+    <p>
+        Este proyecto mezcla la nostalgia que viene del cambio:
+        extrañar a las personas cercanas, los lugares concurridos
+        y los recuerdos que permanecen.
+    </p>
+</section>
+   <section id="fotografias" class="vista" hidden>
+    <h2>Fotografías</h2>
+
+    <article class="proyecto-fotografico">
+        <h3>Bala en el Bolsillo</h3>
+
+        <p>
+            En los primeros días de haber empezado a trabajar en Walmart
+            durante la noche, AJIO hacía llamadas por FaceTime. Como estaba
+            trabajando, colocaba el celular en el bolsillo y Bala siempre
+            decía: “Sácame del bolsillo”.
+        </p>
+
+        <h4>Cereal Walk</h4>
+
+        <figure>
+            <img
+                src="./imagenes/CerealWalk.jpeg"
                 alt="Dibujo integrado en una fotografía"
-                width="350" height="350">    
-                <figcaption>Foto: Walmart, Hazlehurst. Kalo caminando por un pasillo vacio de cereales americanos mientras bala se encuentra en el bolsillo.</figcaption>
-            </figure>
-        </section>
-    </main>
+                width="350"
+                height="350"
+            >
+
+            <figcaption>
+                Foto: Walmart, Hazlehurst. Kalo caminando por un pasillo
+                vacío de cereales americanos mientras Bala se encuentra
+                en el bolsillo.
+            </figcaption>
+        </figure>
+    </article>
+</section>
+<section id="prendas" class="vista" hidden>
+    <h2>Prendas</h2>
+    <p>Esta sección está en construcción.</p>
+</section>
+
+<section id="ilustraciones" class="vista" hidden>
+    <h2>Ilustraciones</h2>
+    <p>Esta sección está en construcción.</p>
+</section>
+
+<section id="graffiti" class="vista" hidden>
+    <h2>Graffiti</h2>
+    <p>Esta sección está en construcción.</p>
+</section>
+    <script src="script.js"></script>
 </body>
 </html>
